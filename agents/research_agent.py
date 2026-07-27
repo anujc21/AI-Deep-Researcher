@@ -1,4 +1,4 @@
-from langchain.agents import tool
+from langchain_core.tools import tool
 from langchain.tools.tavily_search import TavilySearchResults
 
 @tool
