@@ -1,5 +1,5 @@
 from langchain_core.tools import tool
-from langchain.tools.tavily_search import TavilySearchResults
+from langchain_community.tools.tavily_search import TavilySearchResults
 
 @tool
 def web_research_tool(query: str) -> str:
